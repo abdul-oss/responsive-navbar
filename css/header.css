@@ -1,0 +1,120 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px; 
+    background-color: #332e2f;
+
+}
+.menu_icon{
+    margin:10px;
+}
+.menu_icon > div {
+    width: 20px;
+    height: 4px;
+    background-color: #eeebec;
+    margin: 4px 0;
+  }
+nav{
+    width: 100%;
+    background-color: #504246;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+    margin: 10px;
+    padding:0px;
+}
+li{
+    padding:10px 0px;
+    border-bottom: 1px solid #eeebec;
+    font-size: 18px;
+}
+ul li a{
+    color: #eeebec;
+    text-decoration: none;
+}
+ul li a:hover{
+    color:greenyellow;
+}
+.signButton{
+     border: 1px solid greenyellow;
+     background-color: greenyellow;
+     border-radius: 1px;
+     padding: 10px;
+     font-size: xx-large;
+     text-align: center;
+}
+.signButton a{
+    color: #504246;
+
+}
+.signButton a:hover{
+    color: #504246;
+}
+.displayNone{
+    display: none;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+
+@media  (min-width:700px){
+    .menu_icon{
+        display: none;
+    }
+    #navContainer{
+        display: block;
+    }
+    #navContainer {
+        width: 80%;
+        margin: 0px auto;
+    }
+    #navContainer > li{
+        float: left;
+        padding: 10px 10px;
+        border-bottom: none;
+        font-size: 17px;
+    }
+    .rightMenu{
+        position: absolute;
+        right:10%;
+    }
+    .signButton{
+        border:none;
+        background-color: #504246;
+    }
+    .signButton a{
+        color: white; 
+    }
+    .signButton a:hover{
+        color: yellowgreen;
+    }
+    #dropdown{
+        position: absolute;
+        background-color:#504246;
+        z-index: 23;
+        width: 150px;
+        margin-top: 15px;
+    }
+    #dropdown > li{
+        padding: 10px;
+        margin:10px;
+    }
+
+}
+
+@media  (min-width:1800px){
+    body{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .rightMenu{
+        right:30%;
+    }
+   
+}

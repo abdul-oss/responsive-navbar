@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Header</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/header.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu_icon" id="menuIcon">
+                <div id="menuDiv"></div>
+                <div id="menuDiv"></div>
+                <div id="menuDiv"></div>
+            </div>
+            <ul class="displayNone" id="navContainer">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Carrer</a>
+                </li>
+                <li>
+                    <a href="#">Jobs</a>
+                </li>
+                <li>
+                    <a href="#">About Us </a>
+                </li>
+                <li><a href="javascript:void(0);" id="dropButton" > Drop down list
+                        <ul id="dropdown" class="displayNone">
+                            <li>
+                                <a href="#">link 1</a>
+                            </li>
+                            <li>
+                                <a href="#">link 2</a>
+                            </li>
+                            <li>
+                                <a href="#">link 3</a>
+                            </li>
+                            <li>
+                                <a href="#">link 4</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="rightMenu signButton">
+                    <a href="#">Sign up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<div>
+    <div class="container">
+        <h1>Responsive Header</h1>
+        <p>this design is based on mobile first approach. </p>
+    </div>
+</div>
+<script src="js/header.js"></script>
+</html>
